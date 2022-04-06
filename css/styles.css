@@ -1,21 +1,20 @@
-/* 0001 */
-a {
-    color: orange;
-}
-/* 0010 */
-.test-link {
-    color: black;
-}
-/* 0011 */
-a.test-link {
-    color: teal;
+body {
+    background-color: #fff
+    color rgba(0, 0, 0, 0.8);
 }
 
-.test-link:hover,
-.test-link:focus {
-/*    color: #ff0000;
+.logo {
+    color: #000000
 }
 
-.test-link:active {
-    color: teal;
+.list {
+    list-style: none;
 }
+
+/* цвет основного текста №000000 */
+/* вторичный цвет текста rgba(0, 0, 0, 0.8); 
+*/
+/* цвет белый FFFFFF */
+
+/* акцент #18A0FB; */
+/* вторичный цвет фона #F5F5F5; */
