@@ -1,5 +1,21 @@
-body {
-    background-color: burlywood
+/* 0001 */
+a {
+    color: orange;
+}
+/* 0010 */
+.test-link {
+    color: black;
+}
+/* 0011 */
+a.test-link {
+    color: teal;
 }
 
-.site-nav a {}
+.test-link:hover,
+.test-link:focus {
+/*    color: #ff0000;
+}
+
+.test-link:active {
+    color: teal;
+}
