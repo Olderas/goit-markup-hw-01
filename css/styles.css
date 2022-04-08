@@ -1,6 +1,6 @@
 /* цвет основного текста №000000 */
-/* вторичный цвет текста rgba(0, 0, 0, 0.8); 
-*/
+/* вторичный цвет текста rgba(0, 0, 0, 0.8);  */
+
 /* цвет белый #FFFFFF */
 
 /* акцент #18A0FB; */
@@ -19,64 +19,79 @@
 body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
-    font-family: 'Montserrat', sans-serif;
+
+    font-family: Montserrat, sans-serif;
 }
+
 
 .list {
     list-style: none;
 }
 
+/* Logo */
 .logo {
-    color: var(--title-text-color)
+    color: var(--title-text-color);
+    font-family: 'Comfortaa', cursive;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28.4444px;
+    line-height: 32px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
 }
 
 .logo:hover {
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 /* site nav */
 
 .site-nav .link {
-color: var(--accent-color)
+color: var(--accent-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus{
-color: var(--title-texvar(--title-text-color))
+color: var(--title-text-color);
 }
 
 
 /* hero */
 
 .hero-title {
-    color: var(--title-text-color)
+    color: var(--title-text-color);
 }
 /* section */
 .section-title {
-    color: var(--title-text-color)
+    color: var(--title-text-color);
 }
 
 /* features */
 
 .feature-list .title {
-    color: var(--title-text-color)
+    color: var(--title-text-color);
 }
 
 .feature-list .link {
-    color: var(--accent-color) 
+    color: var(--accent-color);
 }
 
 
 /* Examples */
 
 .work-list .title {
-    color: var(--title-text-color)
+    color: var(--title-text-color);
 }
 
 /* button*/
 
 .button {
     color: var(--title-text-color);
-    background-color: var(--primary-white-color)
+    background-color: var(--primary-white-color);
 }
 
 .button.primary {
