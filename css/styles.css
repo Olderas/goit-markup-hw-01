@@ -13,30 +13,57 @@
     --title-text-color: #000000;
     --accent-color: #18A0FB;
     --primary-white-color: #FFFFFF;
+    --background-color: #F5F5F5;
 }
 
 
 body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
-
     font-family: Montserrat, sans-serif;
     letter-spacing: -0.015em;
     font-size: 18px;
     line-height: 1.67;
 }
 
-
-.list {
+ul {
     list-style: none;
 }
 
+a {
+    text-decoration: none
+}
+
+.list {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+
+/* Page header  */
+.page-header {
+    background-color: #ccc;
+
+
+}
+
+
+.container {
+ width: 1440px;
+ outline: 2px solid tomato;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
 /* Logo */
 .logo {
-    color: var(--title-text-color);
-    font-family: 'Comfortaa', cursive;
-    font-size: 28px;
-    line-height: 1.14px;
+color: var(--title-text-color);
+font-family: 'Comfortaa' cursive;
+font-size: 28px;
+line-height: 1.14;
 }
 
 .logo:hover {
@@ -57,15 +84,21 @@ color: var(--accent-color);
 color: var(--title-text-color);
 }
 
+ 
 
 /* hero */
 
+.hero {
+    text-align: center;
+}
+
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 40px;
     color: var(--title-text-color);
     font-weight: 400;
     font-size: 56px;
-    line-height: 1.43px;
-    text-align: center;
+    line-height: 1.43;
 }
 
 /* section */
@@ -75,7 +108,7 @@ color: var(--title-text-color);
 
     font-weight: 400;
     font-size: 48px;
-    line-height: 1.5px;   
+    line-height: 1.5;   
     text-align: center;
 }
 
@@ -91,11 +124,9 @@ color: var(--title-text-color);
 }
 
 /* works */
-.works {
-    background-color: #18A0FB;
-}
-.baby {
-    background-color: black;
+
+.list-two {
+    background-color: var(--background-color)
 }
 
 /* button*/
@@ -103,17 +134,28 @@ color: var(--title-text-color);
 .button {
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);
+    display: inline-block;
+    border: 1px solid transparent;
+    padding: 11px 34px;
+    border-radius: 6px;
+    min-width: 130px;
     font-weight: 500;
     font-size: 15px;
-    line-height: 1.2px;
+    line-height: 1.2;
+    text-decoration: none;
+    text-align: center;
 }
 
 .button.primary {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+    
+
 }
 
 .button.secondary {
     color: var(--accent-color);
     background-color: var(--primary-white-color);
+    border-color: var(--accent-color)
+    
 }
