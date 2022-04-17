@@ -26,17 +26,17 @@ body {
     line-height: 1.67;
 }
 
-ul {
+/* ul {
     list-style: none;
-}
+} */
 
 a {
     text-decoration: none
 }
 
 .list {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
@@ -104,23 +104,37 @@ color: var(--title-text-color);
 /* section */
 
 .section-title {
-    color: var(--title-text-color);
+color: var(--title-text-color);
+margin-top: 0;
+margin-bottom: 60px;
+font-weight: 400;
+font-size: 48px;
+line-height: 1.5;   
+text-align: center;
+background-color: tomato;
+}
 
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 1.5;   
-    text-align: center;
+.section .text-description {
+    color: var(--title-text-color);
+    font-size: 36px;
+    line-height: 1.39;
+}
+
+.registration {
+    background-color: var(--background-color)
 }
 
 /* features и Examples */
 
-.feature-list .title
+.feature-list .title,
 .work-list .title {
+    margin-top: 0;
+    margin-bottom: 24px;
     color: var(--title-text-color);
 
     font-weight: 700;
     font-size: 24px;
-    line-height: 1.5px;
+    line-height: 1.5;
 }
 
 /* works */
@@ -128,6 +142,18 @@ color: var(--title-text-color);
 .list-two {
     background-color: var(--background-color)
 }
+
+
+
+/* Testimonials */
+.section .text-description{
+color: var(--title-text-color);
+font-size: 36px;
+line-height: 1.39;
+}
+
+/* Registration */
+
 
 /* button*/
 
