@@ -8,6 +8,13 @@
 
 
 
+
+
+
+/* margin:20px; Одинаковые отступи по 20пх со всех сторон */
+/* margin: 10px 20px;  Отступ сверху и снизу по 10пх, слева и справа по 20 */
+/* margin: 10px 20px 5px;  Отступ сверху 10пх, слева и справа 20пх, снизу 5пх */
+
 :root {
     --primary-text-color:rgba(0, 0, 0, 0.8);
     --title-text-color: #000000;
@@ -51,7 +58,7 @@ a {
 
 .container {
  width: 1440px;
- outline: 2px solid tomato;
+outline: 2px solid tomato;
 margin-left: auto;
 margin-right: auto;
 }
@@ -99,6 +106,7 @@ color: var(--title-text-color);
     font-weight: 400;
     font-size: 56px;
     line-height: 1.43;
+
 }
 
 /* section */
@@ -111,7 +119,7 @@ font-weight: 400;
 font-size: 48px;
 line-height: 1.5;   
 text-align: center;
-background-color: tomato;
+
 }
 
 .section .text-description {
@@ -124,6 +132,16 @@ background-color: tomato;
     background-color: var(--background-color)
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.section.no-padding {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 /* features и Examples */
 
 .feature-list .title,
@@ -131,10 +149,14 @@ background-color: tomato;
     margin-top: 0;
     margin-bottom: 24px;
     color: var(--title-text-color);
-
     font-weight: 700;
     font-size: 24px;
     line-height: 1.5;
+}
+
+.text {
+    margin-top: 0;
+    margin-bottom: 32px;
 }
 
 /* works */
@@ -156,6 +178,7 @@ line-height: 1.39;
 
 
 /* button*/
+
 
 .button {
     color: var(--primary-text-color);
