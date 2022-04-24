@@ -189,6 +189,19 @@ text-align: center;
     line-height: 1.5;
 }
 
+.feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -75px;
+}
+
+.feature-list .item {
+    width: 625px;
+    margin: 75px;
+    background-color: tomato;
+}
+
+
 .text {
     margin-top: 0;
     margin-bottom: 32px;
