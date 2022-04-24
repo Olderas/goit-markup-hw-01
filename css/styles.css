@@ -159,6 +159,7 @@ text-align: center;
     color: var(--title-text-color);
     margin-top: 0;
     margin-bottom: 80px;
+    text-align: center;
     font-size: 36px;
     line-height: 1.39;
 }
@@ -192,12 +193,13 @@ text-align: center;
 .feature-list {
     display: flex;
     flex-wrap: wrap;
-    margin: -75px;
+    margin:-40px -75px;
 }
 
 .feature-list .item {
     width: 625px;
-    margin: 75px;
+    margin: 40px 75px;
+    
     background-color: tomato;
 }
 
@@ -214,12 +216,39 @@ text-align: center;
 }
 
 .work-list > .item {
-    padding-top: 80px;
-    padding-bottom: 80px;
+display: flex;
+align-items:center;
+padding-top: 80px;
+padding-bottom: 80px;
 }
 
 .work-list > .item:nth-child(even) {
-    background-color: var(--background-color)
+    flex-direction: row-reverse;
+    background-color: var(--background-color);
+}
+
+.work-list > .item:nth-child(2n + 1) > .content {
+    margin-left: 84px;
+}
+
+.work-list > .item:nth-child(2n) > .content {
+    margin-right: 84px;
+}
+
+
+/* Clients */
+
+.client-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1020px;
+    margin: -30px -40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.client-list li {
+    margin: 30px 40px;
 }
 
 
